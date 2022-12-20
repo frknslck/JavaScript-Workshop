@@ -1,18 +1,24 @@
-// const randomnum = Math.floor(Math.random() * 100)
-// let life = 5;
-// let guess = ""
-// do {
+// do{
+//     const randomnum = Math.floor(Math.random() * 100)
+//     let turn = 1;
+//     let guess = ""
 //     guess = +prompt("Enter your guess: ");
-//     if (guess == randomnum){
-//         console.log("Congrats! You guessed right!");
-//         break;
-//     }else {
-//         life -= 1;
-//         if (guess < randomnum){
-//             console.log("Wrong! Try higher.");
-//         }else {
-//             console.log("Wrong! Try Lower.");
+//     do {
+//         if (guess == randomnum){
+//             alert("Congrats! You guessed right! It took " + turn + " turns.");
+//             break;
+//         }else if (guess > randomnum){
+//             turn += 1;
+//             guess = +prompt("Wrong! Try Lower.");
+//         }else{
+//             if(turn < 5){
+//                 turn += 1;
+//                 guess = +prompt("Wrong! Try Higher.");
+//             }else{
+//                 alert("What a shame... Maybe next time!");
+//                 break;
+//             }
 //         }
-//     }
-// } while (life != 0);
-// console.log("What a shame... Maybe next time.");
+//     } while (turn != 6);
+//     again = confirm("Wanna try again?");
+// }while(again===true);
