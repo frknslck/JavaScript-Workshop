@@ -1,67 +1,67 @@
-const month = prompt('Please enter the month:');
+// const month = prompt('Please enter the month:');
 
-switch (month) {
+// switch (month) {
 
-    case "January":
+//     case "January":
 
-        console.log(1);
-        break;
+//         console.log(1);
+//         break;
 
-    case "February":
+//     case "February":
     
-            console.log(2);
-            break;
+//             console.log(2);
+//             break;
     
-    case "March":
+//     case "March":
     
-            console.log(3);
-            break;
+//             console.log(3);
+//             break;
 
-    case "April":
+//     case "April":
     
-            console.log(4);
-            break;
+//             console.log(4);
+//             break;
 
-    case "May":
+//     case "May":
     
-            console.log(5);
-            break;
+//             console.log(5);
+//             break;
 
-    case "June":
+//     case "June":
     
-            console.log(6);
-            break;
+//             console.log(6);
+//             break;
 
-    case "July":
+//     case "July":
     
-            console.log(7);
-            break;
+//             console.log(7);
+//             break;
 
-    case "August":
+//     case "August":
     
-            console.log(8);
-            break;
+//             console.log(8);
+//             break;
 
-    case "September":
+//     case "September":
     
-            console.log(9);
-            break;
+//             console.log(9);
+//             break;
 
-    case "October":
+//     case "October":
     
-            console.log(10);
-            break;
+//             console.log(10);
+//             break;
 
-    case "November":
+//     case "November":
     
-            console.log(11);
-            break;
+//             console.log(11);
+//             break;
 
-    case "December":
+//     case "December":
     
-            console.log(12);
-            break;
+//             console.log(12);
+//             break;
 
-    default:
-        break;
-}
+//     default:
+//         break;
+// }
